@@ -12,6 +12,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
 }
 
@@ -24,62 +25,96 @@ body {
     color: #2e2f42;
 }
 
-.page-link:hover, 
-.page-link:focus {
-    color:#4D5AE5;
-}
-
-.page-link:active {
+.page-link .page-link-span:hover, 
+.page-link .page-link-span:focus {
     color:#404BBF;
 }
 
-.nav-link {
+.page-link .page-link-span:active {
+    color:#404BBF;
+}
+
+.nav-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style-type: none;
     color: #2e2f42;
 }
 
-.nav-link .nav-list-link:hover, 
-.nav-link .nav-list-link:focus {
-
+.nav-list:hover, 
+.nav-list:focus {
+    color: #404BBF;
 }
 
 /* address */
 
-.address-link {
+.address-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    list-style-type:none;
     color: #434455;
 }
 
-.address-link .address-list-link:hover, 
-.address-link .address-list-link:focus {
-
+.address-list:hover, 
+.address-list:focus {
+    color:#404BBF;
 }
 
 /* section 1 */
 
 .main-title {
-
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 .main-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+}
 
+.main-button:hover,
+.main-button:focus {
+    background: #404BBF;
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
+.section-list {
+    list-style-type: none;
 }
 
 .list-title {
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .section-text {
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
