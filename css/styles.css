@@ -97,12 +97,12 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 }
 
 .main-button:hover,
 .main-button:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .section-title {
@@ -138,4 +138,38 @@ ul {
 
 .page-footer {
     background-color:#2e2f42;
+}
+
+/* footer */
+
+.footer-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-link .footer-link-span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-link .footer-link-span:hover,
+.footer-link .footer-link-span:focus {
+    color: #404BBF;
+}
+
+.footer-link .footer-link-span:active {
+    color: #404BBF;
+}
+
+.footer-text {
+    color: #f4f4fd;
 }
