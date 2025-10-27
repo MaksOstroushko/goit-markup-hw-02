@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF
 }
 
 a {
@@ -17,7 +18,7 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -26,7 +27,7 @@ ul {
 .page-link .page-link-span {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -72,10 +73,18 @@ ul {
 
 /* section 1 */
 
+.section-one {
+    background-color: #2e2f42;
+}
+
+.section-third {
+    background-color:#F4F4FD;
+}
+
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -99,14 +108,16 @@ ul {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
 .section-list {
     list-style-type: none;
+    background-color: #FFFFFF;
 }
 
 .list-title {
@@ -123,4 +134,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.page-footer {
+    background-color:#2e2f42;
 }
