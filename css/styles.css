@@ -3,6 +3,14 @@ body {
     color: #434455;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* nav */
 
 .page-link {
@@ -12,7 +20,6 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #4d5ae5;
 }
 
@@ -34,34 +41,32 @@ body {
     color:#404BBF;
 }
 
-.nav-list {
+.nav-list a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    list-style-type: none;
     color: #2e2f42;
 }
 
-.nav-list:hover, 
-.nav-list:focus {
+.nav-list a:hover, 
+.nav-list a:focus {
     color: #404BBF;
 }
 
 /* address */
 
-.address-list {
+.address-list a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    list-style-type:none;
     color: #434455;
 }
 
-.address-list:hover, 
-.address-list:focus {
+.address-list a:hover, 
+.address-list a:focus {
     color:#404BBF;
 }
 
