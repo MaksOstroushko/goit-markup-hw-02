@@ -57,7 +57,7 @@ ul {
 
 /* address */
 
-.address-list a {
+.address-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -66,8 +66,8 @@ ul {
     color: #434455;
 }
 
-.address-list a:hover, 
-.address-list a:focus {
+.address-list-item:hover, 
+.address-list-item:focus {
     color:#404BBF;
 }
 
