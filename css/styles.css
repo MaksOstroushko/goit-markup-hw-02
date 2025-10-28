@@ -42,7 +42,7 @@ ul {
     color:#404BBF;
 }
 
-.nav-list a {
+.nav-list-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -50,19 +50,19 @@ ul {
     color: #2e2f42;
 }
 
-.nav-list a:hover, 
-.nav-list a:focus {
+.nav-list-item:hover, 
+.nav-list-item:focus {
     color: #404BBF;
 }
 
 /* address */
 
 .address-list-item {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: #434455;
 }
 
